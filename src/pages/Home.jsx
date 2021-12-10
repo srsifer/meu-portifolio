@@ -9,14 +9,16 @@ class Home extends Component {
     return (
       <div className="home">
         <section className="sideBar">
-          <button>{incons[4]}</button>
+          <p type="button" className="menuButton">
+          {incons[4]}
+          </p>
           <div className="sectionButtons">
             <p><a className="contctButtons" href={comunications[0]} target="blank">{incons[2]}</a></p>
             <p><a className="contctButtons" href={comunications[1]} target="blank">{incons[5]}</a></p>
             <p><a className="contctButtons" href={comunications[2]} target="blank">{incons[3]}</a></p>
             <p><a className="contctButtons" href={comunications[3]} target="blank">{incons[0]}</a></p>
           </div>
-          <button>{incons[1]}</button>
+          <p>{incons[1]}</p>
         </section>
         <div className="picture">
           <h3>{Igor.name}</h3>

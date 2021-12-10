@@ -28,7 +28,6 @@ body {
 .sectionButtons {
   height: 30%;
   display: flex;
-  font-size: 15px;
   flex-direction: column;
   align-items: center;
   align-content: space-between;
@@ -39,8 +38,8 @@ body {
 
 
 .contctButtons {
-  font-style: none;
-  text-decoration: none;
+  font-size: 20px;
+  color:rgba(14, 196, 241, 0.925);
 }
 
 
@@ -55,6 +54,7 @@ body {
   font-size:37px;
   align-items: flex-end;
   justify-content: center;
+  transform: scale(1.1);
   box-shadow:0px, 5px, 5px, 5px;
 }
 
