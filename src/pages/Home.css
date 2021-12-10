@@ -1,0 +1,64 @@
+body {
+  background-color: #000000;
+}
+.home {
+  background-color: rgb(12, 12, 12);
+  width: 70%;
+  min-height: 80vmin;
+  color:aliceblue;
+  margin: auto;
+  margin-top:5%;
+  margin-bottom:4%;
+  display: flex; 
+  flex-direction: row;
+  align-content: center;
+}
+
+.sideBar {
+  background-color: rgb(12, 12, 12);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: space-between;
+  justify-content: space-between;
+  justify-items: space-between;
+  width: 8%;
+}
+
+.sectionButtons {
+  height: 30%;
+  display: flex;
+  font-size: 15px;
+  flex-direction: column;
+  align-items: center;
+  align-content: space-between;
+  justify-content: space-between;
+  justify-items: space-between;
+}
+
+
+
+.contctButtons {
+  font-style: none;
+  text-decoration: none;
+}
+
+
+.picture {
+  background-image: url(../imageProfile/igor2.jpg);
+  background-position: center center;
+  width: 28%;
+  z-index: 0;
+  display: flex;
+  color: #13e451;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size:37px;
+  align-items: flex-end;
+  justify-content: center;
+  box-shadow:0px, 5px, 5px, 5px;
+}
+
+.mainContent {
+  background-color: rgb(12, 12, 12);
+  width: 64%;
+}
