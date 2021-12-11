@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Igor from '../textContent/text'
+import myPicture from '../imageProfile/igor2.jpg'
 import './Home.css'
 
 
@@ -21,11 +22,44 @@ class Home extends Component {
           <p>{incons[1]}</p>
         </section>
         <div className="picture">
-          <h3>{Igor.name}</h3>
+          <img className="myPicture" src={myPicture} alt="imgem de igor"/>
         </div>
         <div className="mainContent">
-          main content 
-        </div>
+         <div className="scroller">
+         <p> O Naruto pode ser um pouco duro às vezes
+Talvez você não saiba disso</p>
+<p>
+  Mas o Naruto também
+  Cresceu sem pai
+</p>
+
+<p>Na verdade, ele nunca conheceu nenhum de seus pais</p>
+<p>E nunca teve nenhum amigo em nossa aldeia</p>
+<p>Mesmo assim, eu nunca vi ele chorar</p>
+<p>Ficar zangado ou se dar por vencido</p>
+
+<p>Ele está sempre disposto a melhorar</p>
+<p>Ele quer ser respeitado, é o sonho dele</p>
+<p>E o Naruto daria a vida por isso sem hesitar</p>
+<p>Meu palpite é que ele se cansou de chorar</p>
+<p>E decidiu fazer alguma coisa a respeito</p>
+<p>E decidiu fazer alguma coisa a respeito</p>
+<p>E decidiu fazer alguma coisa a respeito</p>
+<p>E decidiu fazer alguma coisa a respeito</p>
+<p>E decidiu fazer alguma coisa a respeito</p>
+<p>E decidiu fazer alguma coisa a respeito</p>
+<p>E decidiu fazer alguma coisa a respeito</p>
+<p>E decidiu fazer alguma coisa a respeito</p>
+<p>E decidiu fazer alguma coisa a respeito</p>
+<p>E decidiu fazer alguma coisa a respeito</p>
+<p>E decidiu fazer alguma coisa a respeito</p>
+<p>E decidiu fazer alguma coisa a respeito</p>
+<p>E decidiu fazer alguma coisa a respeito</p>
+<p>E decidiu fazer alguma coisa a respeito</p>
+<p>E decidiu fazer alguma coisa a respeito</p>
+<p>E decidiu fazer alguma coisa a respeito</p>
+         </div>
+         </div>
       </div>
     )
   }

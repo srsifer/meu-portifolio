@@ -1,6 +1,7 @@
 body {
-  background-color: #000000;
+  background-color: rgb(0,0,0);
 }
+
 .home {
   background-color: rgb(12, 12, 12);
   width: 70%;
@@ -19,6 +20,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-right: 15px;
   align-content: space-between;
   justify-content: space-between;
   justify-items: space-between;
@@ -44,21 +46,32 @@ body {
 
 
 .picture {
-  background-image: url(../imageProfile/igor2.jpg);
-  background-position: center center;
   width: 28%;
-  z-index: 0;
-  display: flex;
   color: #13e451;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size:37px;
-  align-items: flex-end;
   justify-content: center;
   transform: scale(1.1);
   box-shadow:0px, 5px, 5px, 5px;
 }
 
+.myPicture {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 0; 
+}
+
 .mainContent {
   background-color: rgb(12, 12, 12);
+
   width: 64%;
+  margin-left: 30px;
+}
+
+.scroller {
+  background-color: rgb(12, 12, 12);
+  height:770px;
+  width: 830px;  
+  overflow-y: auto;
 }
