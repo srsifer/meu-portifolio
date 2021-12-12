@@ -6,7 +6,7 @@ import './Home.css'
 
 class Home extends Component {
   render() {
-    const { comunications, incons } = Igor; 
+    const { comunications, incons, apresentations, age, local, stacks} = Igor; 
     return (
       <div className="home">
         <section className="sideBar">
@@ -26,38 +26,16 @@ class Home extends Component {
         </div>
         <div className="mainContent">
          <div className="scroller">
-         <p> O Naruto pode ser um pouco duro às vezes
-Talvez você não saiba disso</p>
-<p>
-  Mas o Naruto também
-  Cresceu sem pai
-</p>
-
-<p>Na verdade, ele nunca conheceu nenhum de seus pais</p>
-<p>E nunca teve nenhum amigo em nossa aldeia</p>
-<p>Mesmo assim, eu nunca vi ele chorar</p>
-<p>Ficar zangado ou se dar por vencido</p>
-
-<p>Ele está sempre disposto a melhorar</p>
-<p>Ele quer ser respeitado, é o sonho dele</p>
-<p>E o Naruto daria a vida por isso sem hesitar</p>
-<p>Meu palpite é que ele se cansou de chorar</p>
-<p>E decidiu fazer alguma coisa a respeito</p>
-<p>E decidiu fazer alguma coisa a respeito</p>
-<p>E decidiu fazer alguma coisa a respeito</p>
-<p>E decidiu fazer alguma coisa a respeito</p>
-<p>E decidiu fazer alguma coisa a respeito</p>
-<p>E decidiu fazer alguma coisa a respeito</p>
-<p>E decidiu fazer alguma coisa a respeito</p>
-<p>E decidiu fazer alguma coisa a respeito</p>
-<p>E decidiu fazer alguma coisa a respeito</p>
-<p>E decidiu fazer alguma coisa a respeito</p>
-<p>E decidiu fazer alguma coisa a respeito</p>
-<p>E decidiu fazer alguma coisa a respeito</p>
-<p>E decidiu fazer alguma coisa a respeito</p>
-<p>E decidiu fazer alguma coisa a respeito</p>
-<p>E decidiu fazer alguma coisa a respeito</p>
-<p>E decidiu fazer alguma coisa a respeito</p>
+            <div className="wellcomeDiv">
+              <h1 className="wellcomeTitle">sobre</h1>
+               <div className="mininfo">
+                <p>{`${age} anos`}</p>
+                <p>{local}</p>
+                <p>{stacks}</p>
+               </div>
+              <p className="wellcomeText">{apresentations}</p>
+              <hr className="HR"></hr>
+            </div>
          </div>
          </div>
       </div>

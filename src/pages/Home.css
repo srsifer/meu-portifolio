@@ -64,7 +64,6 @@ body {
 
 .mainContent {
   background-color: rgb(12, 12, 12);
-
   width: 64%;
   margin-left: 30px;
 }
@@ -74,4 +73,51 @@ body {
   height:770px;
   width: 830px;  
   overflow-y: auto;
+}
+
+
+.scroller::-webkit-scrollbar {
+  color: rgb(219, 31, 31);
+  border: 1px solid rgba(0, 0, 0, 0.925);
+  width :10px;
+  border-radius: 15px;
+}
+
+.scroller::-webkit-scrollbar-thumb {
+  background-color: rgba(14, 196, 241, 0.541);
+  border: 1px solid rgba(0, 3, 3, 0.925);
+  width :10px;
+  border-radius: 15px;
+}
+
+.wellcomeDiv {
+  box-shadow: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5px;
+}
+
+.wellcomeTitle {
+  font-size: 40px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.mininfo {
+  display: flex;
+  width: 99%;
+  flex-direction: row;
+  justify-content: space-evenly;
+  color: rgb(14, 196, 241, 0.925);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.wellcomeText {
+  font-size:18px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.HR {
+  width: 80%;
+  border-radius: 15px;
 }
