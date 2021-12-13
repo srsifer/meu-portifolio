@@ -45,10 +45,13 @@ body {
 }
 
 
+a:-webkit-any-link {
+  text-decoration: none;
+  color: white;
+}
+
 .picture {
   width: 40%;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-size:37px;
   justify-content: center;
   transform: scale(1.1);
   box-shadow:0px, 5px, 5px, 5px;
@@ -99,7 +102,6 @@ body {
 
 .wellcomeTitle {
   font-size: 40px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .mininfo {
@@ -108,7 +110,6 @@ body {
   flex-direction: row;
   justify-content: space-evenly;
   color: rgb(14, 196, 241, 0.925);
-  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .wellcomeTextDiv{
@@ -117,7 +118,6 @@ body {
 
 .wellcomeText {
   font-size:18px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .HR  {
@@ -130,7 +130,6 @@ body {
 
 .h2Tols {
   margin-top: 30px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .divTools {
@@ -172,7 +171,6 @@ body {
 
 .titleCard {
   text-align: center;
-  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .divButtons {
@@ -183,12 +181,12 @@ body {
 }
 
 .buttonCard {
- background-color: rgba(14, 196, 241, 0.541);
- color:white;
+ background-color: rgb(49, 49, 49);
  padding:10px;
- box-shadow:unset 0 0 1em 0 rgb(0, 0, 0);
- font-family:Georgia, 'Times New Roman', Times, serif;
+ box-shadow:unset 0 0 1em 0 rgba(14, 196, 241, 0.541);
+ font-family:sans-serif;
  font-size: 19px;
+ border:2px solid rgb(9,115,113);
  border-radius: 5px;
  width:12%;
  height: 7%;

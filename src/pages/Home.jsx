@@ -63,8 +63,8 @@ class Home extends Component {
                     <h3>{movieCardsLibrabry.name}</h3>
                   </div>
                    <div className="divButtons">
-                     <div className="buttonCard"><a href={movieCardsLibrabry.demo} target="blank">Demo</a></div>
-                     <div className="buttonCard"><a href={movieCardsLibrabry.code} target="blank">Code</a></div>
+                     <div className="buttonCard"><a href={movieCardsLibrabry.demo} target="blank">DEMO</a></div>
+                     <div className="buttonCard"><a href={movieCardsLibrabry.code} target="blank">CODE</a></div>
                    </div>
                    <img className="thumbNail" src={movieCardsThumb} alt="thubnail do projeto"/>
                   <div className="describleText">
@@ -76,8 +76,8 @@ class Home extends Component {
                     <h3>{recipesApp.name}</h3>
                   </div>
                    <div className="divButtons">
-                     <div className="buttonCard"><a href={recipesApp.demo} target="blank">Demo</a></div>
-                     <div className="buttonCard"><a href={recipesApp.code} target="blank">Code</a></div>
+                     <div className="buttonCard"><a href={recipesApp.demo} target="blank">DEMO</a></div>
+                     <div className="buttonCard"><a href={recipesApp.code} target="blank">CODE</a></div>
                    </div>
                    <img className="thumbNail" src={recipeAppThumb} alt="thubnail do projeto"/>
                   <div className="describleText">
@@ -88,8 +88,8 @@ class Home extends Component {
                     <h3>{storeManager.name}</h3>
                   </div>
                    <div className="divButtons">
-                     <div className="buttonCard"><a href={storeManager.demo} target="blank">demo</a></div>
-                     <div className="buttonCard"><a href={storeManager.code} target="blank">code</a></div>
+                     <div className="buttonCard"><a href={storeManager.demo} target="blank">DEMO</a></div>
+                     <div className="buttonCard"><a href={storeManager.code} target="blank">CODE</a></div>
                    </div>
                    <img className="thumbNail" src={storeManagerThumb} alt="thubnail do projeto"/>
                   <div className="describleText">
@@ -100,8 +100,8 @@ class Home extends Component {
                     <h3>{cookMaster.name}</h3>
                   </div>
                    <div className="divButtons">
-                     <div className="buttonCard"><a href={cookMaster.demo} target="blank">demo</a></div>
-                     <div className="buttonCard"><a href={cookMaster.code} target="blank">code</a></div>
+                     <div className="buttonCard"><a href={cookMaster.demo} target="blank">DEMO</a></div>
+                     <div className="buttonCard"><a href={cookMaster.code} target="blank">CODE</a></div>
                    </div>
                    <img className="thumbNail" src={cookMsterThumb} alt="thubnail do projeto"/>
                   <div className="describleText">
