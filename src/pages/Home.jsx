@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Igor from '../textContent/text'
-import myPicture from '../imageProfile/igor2.jpg'
+import myPicture from '../textContent/imageProfile/igor2.jpg'
 import './Home.css'
 
 
@@ -33,11 +33,27 @@ class Home extends Component {
                 <p>{local}</p>
                 <p>{stacks}</p>
                </div>
-              <p className="wellcomeText">{apresentations}</p>
+              <div className="wellcomeTextDiv">
+                <p className="wellcomeText">{apresentations}</p>
+              </div>
               <hr className="HR"></hr>
+              <h2>ferramentas</h2>
+              <div className="divTools">
+                <p className="tolsIcon">{incons[6]}</p>
+                <p className="tolsIcon">{incons[7]}</p>
+                <p className="tolsIcon">{incons[8]}</p>
+                <p className="tolsIcon">{incons[9]}</p>
+                <p className="tolsIcon">{incons[10]}</p>
+                <p className="tolsIcon">{incons[11]}</p>
+                <p className="tolsIcon">{incons[12]}</p>
+                <p className="tolsIcon">{incons[13]}</p>
+                <p className="tolsIcon">{incons[14]}</p>
+                <p className="tolsIcon">{incons[15]}</p>
+                <p className="tolsIcon">{incons[16]}</p>
+              </div>
             </div>
          </div>
-         </div>
+        </div>
       </div>
     )
   }
