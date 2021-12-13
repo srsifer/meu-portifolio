@@ -4,7 +4,7 @@ body {
 
 .home {
   background-color: rgb(12, 12, 12);
-  width: 70%;
+  width: 80%;
   min-height: 80vmin;
   color:aliceblue;
   margin: auto;
@@ -46,8 +46,7 @@ body {
 
 
 .picture {
-  width: 28%;
-  color: #13e451;
+  width: 40%;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size:37px;
   justify-content: center;
@@ -184,7 +183,7 @@ body {
 }
 
 .buttonCard {
-  background-color: rgba(14, 196, 241, 0.541);
+ background-color: rgba(14, 196, 241, 0.541);
  color:white;
  padding:10px;
  box-shadow:unset 0 0 1em 0 rgb(0, 0, 0);
