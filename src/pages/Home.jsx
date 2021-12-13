@@ -1,12 +1,17 @@
-import React, { Component } from 'react'
-import Igor from '../textContent/text'
-import myPicture from '../textContent/imageProfile/igor2.jpg'
+import React, { Component } from 'react';
+import Igor from '../textContent/text';
+import myPicture from '../textContent/imageProfile/igor2.jpg';
+import movieCardsThumb from '../textContent/imageProfile/movieCrdsLibraryHomePge.png';
+import recipeAppThumb from '../textContent/imageProfile/appDeReceitasHome.png';
+import storeManagerThumb from '../textContent/imageProfile/storeManagerModel.png';
+import cookMsterThumb from '../textContent/imageProfile/serviceCookMasters.png';
 import './Home.css'
 
 
 class Home extends Component {
   render() {
-    const { comunications, incons, apresentations, age, local, stacks} = Igor; 
+    const { comunications, incons, apresentations, age, local, stacks, projetos} = Igor; 
+    const [movieCardsLibrabry, recipesApp, storeManager,cookMaster] = projetos
     return (
       <div className="home">
         <section className="sideBar">
@@ -37,7 +42,7 @@ class Home extends Component {
                 <p className="wellcomeText">{apresentations}</p>
               </div>
               <hr className="HR"></hr>
-              <h2>ferramentas</h2>
+              <h2 className="h2Tols">Ferramentas</h2>
               <div className="divTools">
                 <p className="tolsIcon">{incons[6]}</p>
                 <p className="tolsIcon">{incons[7]}</p>
@@ -50,6 +55,59 @@ class Home extends Component {
                 <p className="tolsIcon">{incons[14]}</p>
                 <p className="tolsIcon">{incons[15]}</p>
                 <p className="tolsIcon">{incons[16]}</p>
+              </div>
+              <h2>Projetos</h2>
+              <div className="projects">
+                <div className="projectsCardis">
+                  <div className="titleCard">
+                    <h3>{movieCardsLibrabry.name}</h3>
+                  </div>
+                   <div className="divButtons">
+                     <div className="buttonCard"><a href={movieCardsLibrabry.demo} target="blank">demo</a></div>
+                     <div className="buttonCard"><a href={movieCardsLibrabry.code} target="blank">code</a></div>
+                   </div>
+                   <img className="thumbNail" src={movieCardsThumb} alt="thubnail do projeto"/>
+                  <div className="describleText">
+                    <p>{movieCardsLibrabry.describle}</p>
+                  </div>
+                </div>
+                <div className="projectsCardis">
+                  <div className="titleCard">
+                    <h3>{recipesApp.name}</h3>
+                  </div>
+                   <div className="divButtons">
+                     <div className="buttonCard"><a href={recipesApp.demo} target="blank">demo</a></div>
+                     <div className="buttonCard"><a href={recipesApp.code} target="blank">code</a></div>
+                   </div>
+                   <img className="thumbNail" src={recipeAppThumb} alt="thubnail do projeto"/>
+                  <div className="describleText">
+                    <p>{recipesApp.describle}</p>
+                  </div>
+                </div><div className="projectsCardis">
+                  <div className="titleCard">
+                    <h3>{storeManager.name}</h3>
+                  </div>
+                   <div className="divButtons">
+                     <div className="buttonCard"><a href={storeManager.demo} target="blank">demo</a></div>
+                     <div className="buttonCard"><a href={storeManager.code} target="blank">code</a></div>
+                   </div>
+                   <img className="thumbNail" src={storeManagerThumb} alt="thubnail do projeto"/>
+                  <div className="describleText">
+                    <p>{storeManager.describle}</p>
+                  </div>
+                </div><div className="projectsCardis">
+                  <div className="titleCard">
+                    <h3>{cookMaster.name}</h3>
+                  </div>
+                   <div className="divButtons">
+                     <div className="buttonCard"><a href={cookMaster.demo} target="blank">demo</a></div>
+                     <div className="buttonCard"><a href={cookMaster.code} target="blank">code</a></div>
+                   </div>
+                   <img className="thumbNail" src={cookMsterThumb} alt="thubnail do projeto"/>
+                  <div className="describleText">
+                    <p>{cookMaster.describle}</p>
+                  </div>
+                </div>
               </div>
             </div>
          </div>
