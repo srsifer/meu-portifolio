@@ -8,7 +8,7 @@ import cookMsterThumb from '../textContent/imageProfile/serviceCookMasters.png';
   render() {
     const [movieCardsLibrabry, recipesApp, storeManager,cookMaster] = this.props.projetos 
     return (
-      <div>
+      <>
           <div className="projects">
             <div className="projectsCardis">
               <div className="titleCard">
@@ -61,7 +61,7 @@ import cookMsterThumb from '../textContent/imageProfile/serviceCookMasters.png';
               </div>
             </div>
           </div>
-      </div>
+      </>
     )
   }
 }
