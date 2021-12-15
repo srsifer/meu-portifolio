@@ -2,6 +2,7 @@ import thumbMovieCards from './imageProfile/movieCrdsLibraryHomePge.png'
 const linkedin = 'https://www.linkedin.com/in/sifer-igor-fernandes/';
 const github = 'https://github.com/srsifer';
 const instagram = 'https://www.instagram.com/sr.sifer/';
+const WhatsApp = 'https://api.whatsapp.com/send?phone=5531995624892'
 const Email = 'igorsife80@gmail.com';
 
 
@@ -117,7 +118,7 @@ const Igor = {
   age: '23',
   local: 'Betim. MG',
   stacks: 'node.js | react.js',
-  comunications: [linkedin, github, Email, instagram],
+  comunications: [linkedin, github, WhatsApp, instagram],
   projetos: [movieCardsLibrabry, recipesApp, storeManager,cookMaster],
   apresentations: wellcome,
   incons: [instagramIcon, downloadIncon, linkedInIncon, whatsAppIncon, menuIncon, gitHubIncon, reactIncon, nodeIcon, cssIcon, htmlIcon, JSIcon, jestIcon ,expressIcon, mongoDB, sqlIcon,linuxIcon, bashIcon, npmIcon],

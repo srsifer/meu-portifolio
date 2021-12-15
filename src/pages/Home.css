@@ -25,21 +25,22 @@ body {
   height: 100%;
 }
 
-.mainContent {
- border-radius: 0px, 15px, 15px ,0px;
- display: flex;
- flex-direction: column;
- align-items: center;
- width: 99%;
-}
-
 .scroller {
+  background-color: white;
+  padding: 10px;
   background-color: rgb(43, 43, 43);
   height:770px;
   width: 1000px;  
   overflow-y: auto;
 }
 
+.mainContent {
+  border-radius: 0px, 15px, 15px ,0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 99%;
+ }
 
 .scroller::-webkit-scrollbar {
   border: 1px solid rgba(40, 125, 136, 0.925);
