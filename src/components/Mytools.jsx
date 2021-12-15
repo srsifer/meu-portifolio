@@ -17,6 +17,8 @@ import './Mytools.css';
         <p className="tolsIcon">{incons[14]}</p>
         <p className="tolsIcon">{incons[15]}</p>
         <p className="tolsIcon">{incons[16]}</p>
+        <p className="tolsIcon">{incons[17]}</p>
+        <p className="tolsIcon">{incons[19]}</p>
       </div>
     )
   }

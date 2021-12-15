@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import meuCurriculo from '../textContent/imageProfile/igor2.jpg';
 import './SideBar.css';
 
 class SideBar extends Component {
@@ -16,7 +17,7 @@ class SideBar extends Component {
             <p><a className="contctButtons" href={comunications[2]} target="blank">{incons[3]}</a></p>
             <p><a className="contctButtons" href={comunications[3]} target="blank">{incons[0]}</a></p>
           </div>
-          <p>{incons[1]}</p>
+          <a href={meuCurriculo} download="curriculo-igor.jpg"><p>{incons[1]}</p></a>
         </section>
       </>
     )

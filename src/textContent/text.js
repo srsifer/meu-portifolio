@@ -3,12 +3,13 @@ const linkedin = 'https://www.linkedin.com/in/sifer-igor-fernandes/';
 const github = 'https://github.com/srsifer';
 const instagram = 'https://www.instagram.com/sr.sifer/';
 const WhatsApp = 'https://api.whatsapp.com/send?phone=5531995624892'
-const Email = 'igorsife80@gmail.com';
-
-
 
 const instagramIcon = <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
 <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+</svg>
+
+const webIcon = <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-globe" viewBox="0 0 16 16">
+<path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855A7.97 7.97 0 0 0 5.145 4H7.5V1.077zM4.09 4a9.267 9.267 0 0 1 .64-1.539 6.7 6.7 0 0 1 .597-.933A7.025 7.025 0 0 0 2.255 4H4.09zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a6.958 6.958 0 0 0-.656 2.5h2.49zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5H4.847zM8.5 5v2.5h2.99a12.495 12.495 0 0 0-.337-2.5H8.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5H4.51zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5H8.5zM5.145 12c.138.386.295.744.468 1.068.552 1.035 1.218 1.65 1.887 1.855V12H5.145zm.182 2.472a6.696 6.696 0 0 1-.597-.933A9.268 9.268 0 0 1 4.09 12H2.255a7.024 7.024 0 0 0 3.072 2.472zM3.82 11a13.652 13.652 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5H3.82zm6.853 3.472A7.024 7.024 0 0 0 13.745 12H11.91a9.27 9.27 0 0 1-.64 1.539 6.688 6.688 0 0 1-.597.933zM8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855.173-.324.33-.682.468-1.068H8.5zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.65 13.65 0 0 1-.312 2.5zm2.802-3.5a6.959 6.959 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5h2.49zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7.024 7.024 0 0 0-3.072-2.472c.218.284.418.598.597.933zM10.855 4a7.966 7.966 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4h2.355z"/>
 </svg>
 
 const downloadIncon = <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cloud-download-fill" viewBox="0 0 16 16">
@@ -76,40 +77,42 @@ const bashIcon = <svg viewBox="0 0 128 128">
 </svg>
 
 const npmIcon = <svg viewBox="0 0 128 128">
-<path fill="none" d="M-143.76 4.24h119.53v119.53h-119.53z"></path><path fill="#293138" d="M109.01 28.64L71.28 6.24c-2.25-1.33-4.77-2-7.28-2s-5.03.67-7.28 2.01l-37.74 22.4c-4.5 2.67-7.28 7.61-7.28 12.96v44.8c0 5.35 2.77 10.29 7.28 12.96l37.73 22.4c2.25 1.34 4.76 2 7.28 2 2.51 0 5.03-.67 7.28-2l37.74-22.4c4.5-2.67 7.28-7.62 7.28-12.96V41.6c0-5.34-2.77-10.29-7.28-12.96zM79.79 98.59l.06 3.22c0 .39-.25.83-.55.99l-1.91 1.1c-.3.15-.56-.03-.56-.42l-.03-3.17c-1.63.68-3.29.84-4.34.42-.2-.08-.29-.37-.21-.71l.69-2.91c.06-.23.18-.46.34-.6.06-.06.12-.1.18-.13.11-.06.22-.07.31-.03 1.14.38 2.59.2 3.99-.5 1.78-.9 2.97-2.72 2.95-4.52-.02-1.64-.9-2.31-3.05-2.33-2.74.01-5.3-.53-5.34-4.57-.03-3.32 1.69-6.78 4.43-8.96l-.03-3.25c0-.4.24-.84.55-1l1.85-1.18c.3-.15.56.04.56.43l.03 3.25c1.36-.54 2.54-.69 3.61-.44.23.06.34.38.24.75l-.72 2.88c-.06.22-.18.44-.33.58a.77.77 0 01-.19.14c-.1.05-.19.06-.28.05-.49-.11-1.65-.36-3.48.56-1.92.97-2.59 2.64-2.58 3.88.02 1.48.77 1.93 3.39 1.97 3.49.06 4.99 1.58 5.03 5.09.05 3.44-1.79 7.15-4.61 9.41zm19.78-5.41c0 .3-.04.58-.29.72l-9.54 5.8c-.25.15-.45.02-.45-.28v-2.46c0-.3.18-.46.43-.61l9.4-5.62c.25-.15.45-.02.45.28v2.17zm6.56-55.09l-35.7 22.05c-4.45 2.6-7.73 5.52-7.74 10.89v43.99c0 3.21 1.3 5.29 3.29 5.9-.65.11-1.32.19-1.98.19-2.09 0-4.15-.57-5.96-1.64l-37.73-22.4c-3.69-2.19-5.98-6.28-5.98-10.67V41.6c0-4.39 2.29-8.48 5.98-10.67l37.74-22.4c1.81-1.07 3.87-1.64 5.96-1.64s4.15.57 5.96 1.64l37.74 22.4c3.11 1.85 5.21 5.04 5.8 8.63-1.27-2.67-4.09-3.39-7.38-1.47z"></path>
+<path fill="#cb3837" d="M2 38.5h124v43.71H64v7.29H36.44v-7.29H2zm6.89 36.43h13.78V53.07h6.89v21.86h6.89V45.79H8.89zm34.44-29.14v36.42h13.78v-7.28h13.78V45.79zm13.78 7.29H64v14.56h-6.89zm20.67-7.29v29.14h13.78V53.07h6.89v21.86h6.89V53.07h6.89v21.86h6.89V45.79z"></path>
 </svg>
 
+const vscodeIcon = <svg viewBox="0 0 128 128">
+<path d="M3.656 45.043s-3.027-2.191.61-5.113l8.468-7.594s2.426-2.559 4.989-.328l78.175 59.328v28.45s-.039 4.468-5.757 3.976zm0 0" fill="#2489ca"></path><path d="M23.809 63.379L3.656 81.742s-2.07 1.543 0 4.305l9.356 8.527s2.222 2.395 5.508-.328l21.359-16.238zm0 0" fill="#1070b3"></path><path d="M59.184 63.531l36.953-28.285-.239-28.297S94.32.773 89.055 3.99L39.879 48.851zm0 0" fill="#0877b9"></path><path d="M90.14 123.797c2.145 2.203 4.747 1.48 4.747 1.48l28.797-14.222c3.687-2.52 3.171-5.645 3.171-5.645V20.465c0-3.735-3.812-5.024-3.812-5.024L98.082 3.38c-5.453-3.379-9.027.61-9.027.61s4.593-3.317 6.843 2.96v112.317c0 .773-.164 1.53-.492 2.214-.656 1.332-2.086 2.57-5.504 2.051zm0 0" fill="#3c99d4"></path>
+</svg>
 
-const wellcome = `em abril de 2021 decidi entrar para trybe, e certamente foi uma das melhores decisões da minha vida. aqui eu aprendi a trabalhar com o desenvolvimento web e me descobri,
-eu me apaixonei por tecnologia e como ela pode melhorar as vidas das pessoas. Atualmente eu atuo na stack node.js e react.js Busco minha vaga primeira vaga como desenvolvedor jr`
+const wellcome = `Em abril de 2021 decidi entrar para trybe e, certamente foi uma das melhores decisões da minha vida. Aqui eu aprendi a trabalhar com o desenvolvimento web e me descobri, eu me apaixonei por tecnologia e como ela pode melhorar a vida das pessoas. Atualmente eu atuo na stack node.js e react.js. Busco minha primeira vaga como desenvolvedor jr. `
 
 const movieCardsLibrabry = {
   name: 'Movie Cards Library Crud',
   demo: 'local de deploy',
   code: 'https://github.com/srsifer/movie-card-library-crud',
   thumb: thumbMovieCards,
-  describle: 'O Movie Cards Library CRUD  é um projeto que simula a  uma locadora ou site de filmes onde você, pode criar  atualizar fazer upload e deletar um filme utilizando o formulário da pagina '
+  describle: 'O Movie Cards Library CRUD é um projeto que simula a uma locadora ou site de filmes onde você pode criar, atualizar, fazer upload e deletar um filme utilizando o formulário da página.'
 };
 
 const recipesApp = {
   name: 'App De Receitas',
   demo: 'local de deploy',
   code: 'https://github.com/srsifer/react-recipesApp',
-  describle: 'O app de receitas é um App que você pode utilizar para descobrir novas receitas e aplicá-las no seu dia a dia, para uma boa visualização siga as orientaçoes do READ-ME'
+  describle: 'É um App que você pode utilizar para descobrir novas receitas e aplicá-las no seu dia a dia, para uma boa visualização siga as orientaçoes do READ-ME.'
 };
 
 const storeManager = {
   name: 'Store Manager', 
   demo: 'local de deploy',
   code: 'https://github.com/srsifer/store-manager',
-  describle: 'O Store Manager criamos uma API com a arquitetura Msc (Model Service Control) para organizar melhor nossa api e funções, utilizando o mongoDB  como nosso banco conectado a Api '
+  describle: 'No Store Manager criamos uma API com a arquitetura MSC (Model Service Control) para organizar melhor nossa API e funções, utilizando o mongoDB como nosso banco conectado a API.'
 };
 
 const cookMaster = {
   name: 'cook Master',
   demo: 'local de deploy',
   code: 'https://github.com/srsifer/cook-master',
-  describle: 'O coock Master é uma Api completa (CRUD) e RESTfull, mas calma ai, algumas operações só é possível após o loguin e token de autenticação, veja mais no README do projeto'
+  describle: 'O cook Master é uma API completa (CRUD) e RESTfull, algumas operações apenas são possíveis após o login e token de autenticação, veja mais no README do projeto'
 };
 
 
@@ -121,6 +124,6 @@ const Igor = {
   comunications: [linkedin, github, WhatsApp, instagram],
   projetos: [movieCardsLibrabry, recipesApp, storeManager,cookMaster],
   apresentations: wellcome,
-  incons: [instagramIcon, downloadIncon, linkedInIncon, whatsAppIncon, menuIncon, gitHubIncon, reactIncon, nodeIcon, cssIcon, htmlIcon, JSIcon, jestIcon ,expressIcon, mongoDB, sqlIcon,linuxIcon, bashIcon, npmIcon],
+  incons: [instagramIcon, downloadIncon, linkedInIncon, whatsAppIncon, menuIncon, gitHubIncon, reactIncon, nodeIcon, cssIcon, htmlIcon, JSIcon, jestIcon ,expressIcon, mongoDB, sqlIcon,linuxIcon, bashIcon, npmIcon, webIcon, vscodeIcon],
 };
 export default Igor;

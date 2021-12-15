@@ -20,12 +20,20 @@ class Home extends Component {
          <div className="scroller">
             <div className="mainContent">
               <AboutMe
-                info={ [apresentations, age, local, stacks]}/>
+                id="about"
+                info={ [apresentations, age, local, stacks]}
+                />
               <hr className="HR"></hr>
               <h2 className="h2Tols">Ferramentas</h2>
-              <Mytools incons={incons} />
+              <Mytools
+                id ="tools"
+                incons={incons} />
               <h2>Projetos</h2>
-              <ProjectsRender projetos={projetos} />
+              <ProjectsRender
+                id='projects'
+                projetos={projetos}
+                incons={incons} 
+              />
               </div>
             </div>
          </div>
