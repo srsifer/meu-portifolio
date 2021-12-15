@@ -17,9 +17,8 @@ class Home extends Component {
         <div className="picture">
           <img className="myPicture" src={myPicture} alt="imgem de igor"/>
         </div>
-        <div className="mainContent">
          <div className="scroller">
-            <div className="wellcomeDiv">
+            <div className="mainContent">
               <AboutMe
                 info={ [apresentations, age, local, stacks]}/>
               <hr className="HR"></hr>
@@ -30,7 +29,6 @@ class Home extends Component {
               </div>
             </div>
          </div>
-        </div>
     )
   }
 }
