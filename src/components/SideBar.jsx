@@ -6,7 +6,7 @@ class SideBar extends Component {
     return (
       <>
          <section className="sideBar">
-          <p type="button" className="menuButton">
+          <p className="menuButton">
           {incons[4]}
           </p>
           <div className="sectionButtons">
