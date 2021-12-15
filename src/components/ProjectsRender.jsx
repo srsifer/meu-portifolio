@@ -3,6 +3,7 @@ import movieCardsThumb from '../textContent/imageProfile/movieCrdsLibraryHomePge
 import recipeAppThumb from '../textContent/imageProfile/appDeReceitasHome.png';
 import storeManagerThumb from '../textContent/imageProfile/storeManagerModel.png';
 import cookMsterThumb from '../textContent/imageProfile/serviceCookMasters.png';
+import './ProjectsRender.css';
 
  class ProjectsRender extends Component {
   render() {

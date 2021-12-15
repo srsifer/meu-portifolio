@@ -1,0 +1,24 @@
+.h2Tols {
+  margin-top: 30px;
+}
+
+.divTools {
+  margin-top:30px;
+  border: 1px solid #28858395;
+  margin-bottom:30px;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-radius:15px;
+  background-color: #80828295;
+  box-shadow:inset 0 0 1em black;
+}
+
+.tolsIcon {
+  width: 65px;
+  margin: 10px;
+  padding: 10px
+}

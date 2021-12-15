@@ -1,0 +1,26 @@
+.sideBar {
+  background-color: rgb(43, 43, 43);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 15px;
+  align-content: space-between;
+  justify-content: space-between;
+  justify-items: space-between;
+  width: 5%;
+}
+
+.sectionButtons {
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: space-between;
+  justify-content: space-between;
+  justify-items: space-between;
+}
+
+.contctButtons {
+  font-size: 20px;
+  color:rgba(14, 196, 241, 0.925) !important;
+}
