@@ -88,7 +88,7 @@ const wellcome = `Em abril de 2021 decidi entrar para trybe e, certamente foi um
 
 const movieCardsLibrabry = {
   name: 'Movie Cards Library Crud',
-  demo: 'local de deploy',
+  demo: 'https://movie-cards-library-crud.herokuapp.com',
   code: 'https://github.com/srsifer/movie-card-library-crud',
   thumb: thumbMovieCards,
   describle: 'O Movie Cards Library CRUD é um projeto que simula a uma locadora ou site de filmes onde você pode criar, atualizar, fazer upload e deletar um filme utilizando o formulário da página.'
